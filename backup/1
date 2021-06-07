@@ -1,0 +1,10 @@
+
+region = "ap-south-1"
+environment = "Development"
+vpc_cidr = "172.16.0.0/16"
+public_subnet_1_cidr  = "172.16.1.0/24"
+private_subnet_1_cidr = "172.16.10.0/24"
+instance_type = "m4.large"
+#instance_ami = "ami-0c6b1d09930fac512"
+instance_ami = "ami-010aff33ed5991201"
+keyname = "terraform-testing"
